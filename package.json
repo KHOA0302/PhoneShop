@@ -16,6 +16,7 @@
     "customize-cra": "^1.0.0",
     "normalize.css": "^8.0.1",
     "react-app-rewired": "^2.2.1",
+    "react-router-dom": "^6.23.1",
     "sass": "^1.77.2"
   },
   "scripts": {

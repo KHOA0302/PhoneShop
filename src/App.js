@@ -1,8 +1,29 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { publicRoutes } from "./routes";
+import { DefaultLayout } from "./components/Layout";
+
 function App() {
   return (
-    <div className="App">
-      <h1>react app</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          {publicRoutes.map((route) => {
+            const Layout = route.layout || DefaultLayout;
+            const Page = route.component;
+            return (
+              <Route
+                path={route.path}
+                element={
+                  <Layout>
+                    <Page />
+                  </Layout>
+                }
+              />
+            );
+          })}
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
