@@ -3,10 +3,17 @@ import classNames from "classnames/bind";
 
 const cx = classNames.bind(styles);
 
-function SearchResult() {
+function SearchResult({ results }) {
+  console.log(results);
+  // const renderResult = results.map((result) => {
+  //   const name = result.full_name;
+  //   return <li>{name}</li>;
+  // });
   return (
     <div className={cx("wrapper")}>
-      <div className={cx("result-searching")}></div>
+      <div className={cx("result-searching")}>
+        <ul></ul>
+      </div>
     </div>
   );
 }

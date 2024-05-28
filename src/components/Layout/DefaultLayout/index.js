@@ -1,13 +1,16 @@
 import React from "react";
 import Header from "./Header";
 import SideBar from "./SideBar";
+import { useState } from "react";
 
 function DefaultLayout({ children }) {
+  const [showSidebar, setShowSidebar] = useState(false);
+
   return (
     <div>
-      <Header />
+      <Header showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
       <div>
-        <SideBar />
+        <SideBar showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
         <div>{children}</div>
       </div>
     </div>
