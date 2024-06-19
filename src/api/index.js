@@ -1,6 +1,6 @@
 const api = {
-  base: "https://tiktok.fullstack.edu.vn/api/",
-  search: "users/search",
+  base: "http://14.225.207.131:8080/api",
+  allPhone: "phone/AllPhonesSellingFollowBrand",
 };
 
 export default api;

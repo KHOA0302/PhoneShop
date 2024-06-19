@@ -1,18 +1,24 @@
 import React from "react";
 import Header from "./Header";
 import SideBar from "./SideBar";
+import classNames from "classnames/bind";
+import styles from "./DefaultLayout.module.scss";
 import { useState } from "react";
+import Footer from "./Footer";
+
+const cx = classNames.bind(styles);
 
 function DefaultLayout({ children }) {
   const [showSidebar, setShowSidebar] = useState(false);
 
   return (
-    <div>
+    <div className={cx("wrapper")}>
       <Header showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
-      <div>
+      <div className={cx("container")}>
         <SideBar showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
-        <div>{children}</div>
+        {children}
       </div>
+      <Footer />
     </div>
   );
 }

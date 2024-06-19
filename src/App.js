@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { publicRoutes } from "./routes";
-import { DefaultLayout } from "./components/Layout";
+import { DefaultLayout } from "~/layout";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
             );
           })}
         </Routes>
+        <div>
+          <Toaster position="top-right" reverseOrder={false} />
+        </div>
       </div>
     </Router>
   );
