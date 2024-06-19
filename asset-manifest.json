@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PhoneShop/static/css/main.ac667125.css",
-    "main.js": "/PhoneShop/static/js/main.6d16ffe3.js",
+    "main.js": "/PhoneShop/static/js/main.2e91ed7e.js",
     "static/js/453.cc71816a.chunk.js": "/PhoneShop/static/js/453.cc71816a.chunk.js",
     "static/media/logo_gold.png": "/PhoneShop/static/media/logo_gold.cdf23909f384b266eaae.png",
     "static/media/phone.png": "/PhoneShop/static/media/phone.6acce95c033f6b6188a0.png",
@@ -10,11 +10,11 @@
     "static/media/momo.png": "/PhoneShop/static/media/momo.2c2815dbc502585e5214.png",
     "index.html": "/PhoneShop/index.html",
     "main.ac667125.css.map": "/PhoneShop/static/css/main.ac667125.css.map",
-    "main.6d16ffe3.js.map": "/PhoneShop/static/js/main.6d16ffe3.js.map",
+    "main.2e91ed7e.js.map": "/PhoneShop/static/js/main.2e91ed7e.js.map",
     "453.cc71816a.chunk.js.map": "/PhoneShop/static/js/453.cc71816a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac667125.css",
-    "static/js/main.6d16ffe3.js"
+    "static/js/main.2e91ed7e.js"
   ]
 }
