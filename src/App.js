@@ -5,7 +5,7 @@ import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
-    <Router>
+    <Router basename={"/PhoneShop"}>
       <div className="App">
         <Routes>
           {publicRoutes.map((route, id) => {
