@@ -7,9 +7,10 @@ import SignUp from "~/Pages/SignUp";
 import SignIn from "~/Pages/SignIn";
 import Order from "~/Pages/Order";
 import UserPersonal from "~/Pages/UserPersonal";
+import Test from "~/Pages/Test";
 
 const publicRoutes = [
-  { path: routes.home, component: Home },
+  { path: routes.home, component: Test },
   { path: routes.details, component: PhoneDetails },
   { path: routes.cart, component: Cart },
   { path: routes.payment, component: Payment },
