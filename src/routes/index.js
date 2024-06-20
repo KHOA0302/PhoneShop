@@ -10,7 +10,7 @@ import UserPersonal from "~/Pages/UserPersonal";
 import Test from "~/Pages/Test";
 
 const publicRoutes = [
-  { path: routes.home, component: Test },
+  { path: routes.home, component: Home },
   { path: routes.details, component: PhoneDetails },
   { path: routes.cart, component: Cart },
   { path: routes.payment, component: Payment },
@@ -18,6 +18,7 @@ const publicRoutes = [
   { path: routes.signIn, component: SignIn },
   { path: routes.order, component: Order },
   { path: routes.userInfo, component: UserPersonal },
+  { path: routes.test, component: Test },
 ];
 
 const privateRoutes = [];
