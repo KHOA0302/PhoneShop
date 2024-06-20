@@ -71,6 +71,8 @@ function Home() {
       <PhoneDisplay />
 
       <h1>CI/CD</h1>
+      <h1>Update</h1>
+
     </div>
   );
 }
