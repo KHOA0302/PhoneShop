@@ -69,6 +69,8 @@ function Home() {
       </div>
 
       <PhoneDisplay />
+
+      <h1>CI/CD</h1>
     </div>
   );
 }
