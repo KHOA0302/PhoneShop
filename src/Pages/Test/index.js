@@ -1,7 +1,12 @@
 import React from "react";
 
 function Test() {
-  return <h1>CI/CD</h1>;
+  return (
+    <>
+      <h1>CI/CD</h1>
+      <h1>Update</h1>
+    </>
+  );
 }
 
 export default Test;
