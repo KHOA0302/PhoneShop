@@ -4,7 +4,6 @@ function Test() {
   return (
     <>
       <h1>CI/CD</h1>
-      <h1>Update</h1>
     </>
   );
 }
